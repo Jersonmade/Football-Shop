@@ -1,0 +1,174 @@
+.header {
+	padding: 14px 0;
+	background-color: black;
+
+}
+
+.logo {
+	font-size: 23px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	transition: 0.5s all ease;
+}
+
+.logo:hover {
+	color: orange;
+}
+
+header .header nav a {
+	font-size: 1rem;
+	line-height: 19px;
+	color: gray;
+	padding-bottom: 5px;
+	border-bottom: 1px solid transparent;
+	text-decoration: none;
+	transition: 0.5s all ease;
+}
+
+header .header nav a:hover {
+	color: orange;
+	border-bottom: 1px solid yellow;
+}
+
+main {
+	background-color: #c8c8c8;
+}
+
+.categories {
+	padding-top: 21px;
+
+}
+
+.categories .categories-menu h3 {
+	height: 50px;
+	background-color: orange;
+	border-radius: 5px 5px 0px 0px;
+	font-size: 1.125em;
+	line-height: 25px;
+	color: #fff;
+	padding-left: 28px;
+	padding-right: 15px;
+}
+
+.categories .categories-menu button {
+	border: none;
+	outline: none;
+	background: transparent;
+	transition: 0.5s all ease;
+}
+
+.categories .categories-menu button:hover {
+	color: white;
+}
+
+.categories .categories-menu button svg {
+	width: 25px;
+	height: 25px;
+}
+
+.txt {
+	font-size: 20px;
+	justify-content: center;
+}
+
+.categories .categories-menu .menu {
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+	border-radius: 0 0 5px 5px;
+	padding-bottom: 10px;
+	padding-top: 14px;
+}
+
+.categories .categories-menu .menu ul li {
+	margin-bottom: 20px;
+}
+
+.categories .categories-menu .menu ul li a {
+	font-size: 1rem;
+	line-height: 19px;
+	color: #4B4B4E;
+	transition: 0.5s all ease;
+}
+
+.categories .categories-menu .menu ul li a:hover {
+	color: orange;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+.items .boxes .box {
+	width: 250px;
+	background-color: gray;
+	/*margin-bottom: 50px;*/
+}
+
+.items .boxes .box figure {
+	height: 317px;
+}
+
+
+
+img {
+	width: 100%;
+}
+
+figcaption {
+	padding: 18px 0 12px 18px;
+}
+
+.items .boxes .box a {
+	background-color: white;
+	border: 1px solid yellow;
+	border-radius: 5px;
+	height: 40px;
+	width: 100%;
+	color: orange;
+	transition: 0.5s all ease;
+}
+
+.items .boxes .box a:hover {
+	background-color: orange;
+	color: white;
+}
+
+footer {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text_footer {
+	text-align: center;
+	padding: 25px 0;
+	font-size: 14px;
+	font-weight: 200;
+	color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+
+	header .header .logo img {
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	.logo {
+		font-size: 18px;
+	}
+
+	.items .boxes .box {
+		width: 235px;
+	}
+}
